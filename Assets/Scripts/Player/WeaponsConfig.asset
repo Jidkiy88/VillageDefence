@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed58d2fea6d2204c82788d1d6b36893, type: 3}
+  m_Name: WeaponsConfig
+  m_EditorClassIdentifier: 
+  weapons:
+  - id: 0
+    weaponName: Wooden sword
+    weaponIcon: {fileID: 21300000, guid: 6e5c82938ee03fe4c9f103fd391f651e, type: 3}
+    weaponCost: 0
+    damage: 15
+    criticalDamageChance: 0
+    criticalDamagePercent: 100
+    state: 2
+  - id: 1
+    weaponName: Gladius
+    weaponIcon: {fileID: 21300000, guid: 6e5c82938ee03fe4c9f103fd391f651e, type: 3}
+    weaponCost: 300
+    damage: 25
+    criticalDamageChance: 5
+    criticalDamagePercent: 115
+    state: 0
+  - id: 2
+    weaponName: Dragonblade
+    weaponIcon: {fileID: 21300000, guid: 295aa8d2550624345885ddfd7a3f5d45, type: 3}
+    weaponCost: 400
+    damage: 35
+    criticalDamageChance: 10
+    criticalDamagePercent: 135
+    state: 0
+  - id: 3
+    weaponName: Justice
+    weaponIcon: {fileID: 21300000, guid: 3fabcbcf6a43c204c87ebb13211a04ef, type: 3}
+    weaponCost: 500
+    damage: 40
+    criticalDamageChance: 37
+    criticalDamagePercent: 165
+    state: 0
+  - id: 4
+    weaponName: Demonic
+    weaponIcon: {fileID: 21300000, guid: d4dc4b2a52c2fb74087a021220b2dacd, type: 3}
+    weaponCost: 666
+    damage: 45
+    criticalDamageChance: 66
+    criticalDamagePercent: 190
+    state: 0
+  - id: 5
+    weaponName: Ravenblade
+    weaponIcon: {fileID: 21300000, guid: ed50f4fd314b5954e951d074613644cb, type: 3}
+    weaponCost: 1000
+    damage: 50
+    criticalDamageChance: 30
+    criticalDamagePercent: 225
+    state: 0
+  - id: 6
+    weaponName: Moon Sword
+    weaponIcon: {fileID: 21300000, guid: b237c7af2a88d2d4da80fee9b1b54a33, type: 3}
+    weaponCost: 1500
+    damage: 55
+    criticalDamageChance: 15
+    criticalDamagePercent: 420
+    state: 0
